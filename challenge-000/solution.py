@@ -1,9 +1,9 @@
 def fizz_buzz(n: int) -> str:
     res = []
     if n % 3 == 0:
-        res.append("fizz")
+        res.append("Fizz")
     if n % 5 == 0:
-        res.append("buzz")
+        res.append("Buzz")
     return "".join(res) if res else str(n)
 
 
